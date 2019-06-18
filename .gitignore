@@ -19,5 +19,7 @@
 
 # ...even if they are in subdirectories
 !*/
+
+## ignore 
 snakemake/
 software/
