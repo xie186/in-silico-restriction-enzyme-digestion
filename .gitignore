@@ -1,0 +1,23 @@
+## /home/xie186/restriction/data
+
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!*.pl
+!*.py
+!*.R
+!*.README
+!README
+!*.qsub
+!*.sub
+!*.sh
+!*.Rmd
+!*.md
+!*.docs
+
+# ...even if they are in subdirectories
+!*/
+snakemake/
+software/
